@@ -1,0 +1,119 @@
+body{
+    color: #333D47;
+    font-family: sans-serif;
+    font-weight: 900;
+    background-image: url(https://www.tech4me.com.br/wp-content/uploads/2019/06/bg-tech4me4.png); 
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+#logo-marca-tech4me {
+    width: 200px;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;    
+}
+
+label{
+    font-size: 22px;
+}
+
+input[type=text], input[type=tel], input[type=email], input[type=number], select {
+    width: 100%;
+    padding: 16px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #333D47;
+}
+  
+input[type=submit] {
+    font-weight: 800;
+    width: 100%;
+    background-color: #2291D3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 4px; 
+    border-width: 1px;
+    border-style: solid;
+}
+  
+input[type=submit]:hover {
+    background-color: white;
+    color: #2291D3;
+    border-color: #2291D3;
+    border-radius: 4px; 
+    border-width: 1px;
+    border-style: solid;
+}
+  
+.form-tech4me {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+}
+
+
+@media screen and (min-width: 701px) {
+
+    h1{
+        font-size: 36px;
+    }
+
+    
+    label{
+        font-size: 22px;
+    }
+
+    input[type=text], input[type=tel], input[type=email], select {
+        font-size: 24px;
+    }
+
+    input[type=submit] {
+        font-size: 24px;
+    }
+
+    #logo-marca-tech4me {
+        width: 200px;
+    }
+
+  }
+  
+  @media screen and (max-width: 700px) {
+
+    h1{
+        font-size: 24px;
+    }
+    
+    label{
+        font-size: 18px;
+    }
+
+    input[type=text], input[type=tel], input[type=email], select {
+        font-size: 18px;
+    }
+
+    input[type=submit] {
+        font-size: 18px;
+    }
+
+    #logo-marca-tech4me {
+        width: 100px;
+    }
+
+  }
