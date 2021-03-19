@@ -10,6 +10,7 @@ h1{
     font-family: sans-serif;
     font-weight: 900;
     font-size: 36px;
+    margin-top: 20px;
 }
 
 #logo-marca-tech4me {
@@ -52,7 +53,7 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #008DE190;
+    background-color: #017dc5;
 }
   
 .form-tech4me {
@@ -68,6 +69,7 @@ input[type=submit]:hover {
 
     h1{
         font-size: 36px;
+        font-weight: 900;
     }
 
     
@@ -92,7 +94,8 @@ input[type=submit]:hover {
   @media screen and (max-width: 700px) {
 
     h1{
-        font-size: 24px;
+        font-size: 22px;
+        font-weight: 800;
     }
     
     label{
