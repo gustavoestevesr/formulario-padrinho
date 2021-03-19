@@ -38,7 +38,7 @@ input[type=text], input[type=tel], input[type=email], input[type=number], select
 input[type=submit] {
     font-weight: 800;
     width: 100%;
-    background-color: #2291D3;
+    background-color: #008DE1;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -52,12 +52,7 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: white;
-    color: #2291D3;
-    border-color: #2291D3;
-    border-radius: 4px; 
-    border-width: 1px;
-    border-style: solid;
+    background-color: #008DE190;
 }
   
 .form-tech4me {
@@ -80,7 +75,7 @@ input[type=submit]:hover {
         font-size: 22px;
     }
 
-    input[type=text], input[type=tel], input[type=email], select {
+    input[type=text], input[type=tel], input[type=email], input[type=number], select {
         font-size: 24px;
     }
 
@@ -104,7 +99,7 @@ input[type=submit]:hover {
         font-size: 18px;
     }
 
-    input[type=text], input[type=tel], input[type=email], select {
+    input[type=text], input[type=tel], input[type=email], input[type=number], select {
         font-size: 18px;
     }
 
