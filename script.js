@@ -18,6 +18,7 @@ function googlesheets(){
     }else{
         url = `https://docs.google.com/forms/d/e/1FAIpQLSdehR1MfEb8ezQrEEwH047f3MQSJ9NC8dTI-xTH03vlCZF3Nw/formResponse?entry.288291952=${nome.value}&entry.1398277623=${email.value}&entry.17087396=${telefone.value}&entry.627194152=${candidatos.value}`
         location.href = url
+        window.location.replace("index.html")
         alert('Formulário enviado com sucesso!')
     }
 
